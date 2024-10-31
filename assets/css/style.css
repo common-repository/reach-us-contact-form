@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.reach-us label {
+  display: block !important;
+  margin: 0 0 10px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .2em !important;
+  font-family: 'Roboto', sans-serif !important;
+
+}
+
+.reach-us input {
+    outline: none !important;
+    display: block !important;
+    background: rgb(255, 255, 255) !important;
+    width: 100% !important;
+    border: 0 !important;
+    border-radius: 15px !important;
+    box-sizing: border-box !important;
+    padding: 12px 20px !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: inherit !important;
+    transition: 0.3s ease !important;
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,0.07), 0 2px 9px 0 rgba(62,57,107,0.06);
+    margin-bottom: 27px !important;
+    margin-top: 9px !important;
+}
+.reach-us input:focus {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+.reach-us button {
+  outline: none !important;
+  background: linear-gradient(270deg, #5094f2, #3f43ea) !important;
+  width: 100% !important;
+  border-radius: 4px !important;
+  padding: 12px 20px !important;
+  color: #FFFFFF !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: inherit !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  border-radius: 15px !important;
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,.2), 0 2px 9px 0 rgba(62,57,107,0.3) !important;
+  transition: background 2s, color 1s !important;
+}
+.reach-us button {
+  color: #fff !important;
+  border-radius: 15px !important;
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,.2), 0 2px 9px 0 rgba(62,57,107,0.3) !important;
+}
+.reach-us button:hover {
+    background: linear-gradient(80deg, #5094f2, #3f43ea) !important;
+    color: #00438b  !important;
+}
+.reach-us input[type='checkbox'] {
+  display: inline-block !important;
+  width: auto !important;
+  margin: 0 10px 0 0 !important;
+}
+.reach-us textarea{
+  outline: none !important;
+    display: block !important;
+    background: rgb(255, 255, 255) !important;
+    width: 100% !important;
+    border: 0 !important;
+    border-radius: 15px !important;
+    box-sizing: border-box !important;
+    padding: 12px 20px !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: inherit !important;
+    transition: 0.3s ease !important;
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,0.07), 0 2px 9px 0 rgba(62,57,107,0.06);
+    margin-bottom: 27px !important;
+    margin-top: 9px !important;
+}
+.reach-us {
+    background: #c3b1b1 !important;
+    font-family: "Courier 10 Pitch", Courier, monospace !important;
+    font-size: 15px !important;
+    font-size: 0.9375rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1.6em !important;
+    max-width: 75% !important;
+    overflow: auto !important;
+    padding: 3em !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+textarea#g-recaptcha-response {
+    display: none !important;
+}
